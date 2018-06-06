@@ -90,6 +90,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* mobile first styles */
+ul{
+  display:inline-block;
+  list-style-type:none;
+  margin:5;
+  padding:0;
+}
+
+ul#main-nav li{
+  display:block;
+  text-align: center;
+  background-color: #000;
+  padding: 0.5em;
+  margin:5px auto;
+}
+
+ul#main-nav li a{
+  color:#cccccc;
+  font-size: 1em;
+  text-transform: uppercase;
+  width:200px;
+  padding:10px;
+}
+
+/* Change the link color on hover */
+ul#main-nav a:hover {
+  background-color: #555;
+  color: white;
+}
 
 
 
