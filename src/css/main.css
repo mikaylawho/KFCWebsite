@@ -149,23 +149,58 @@ ul#main-nav a:hover {
 
 header{
   position:relative;
+  /*width and height set to fit the logo image on mobile*/
+  height: 280px;
+  width:324px;
+  margin: 0 auto;
+}
+
+img#banner{
+  display: none;
 }
 
 div#nav-header{
-  position:relative;
-  height:279px;
-  width:322px;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width: 100%;
   margin:0 auto;
   overflow-clip: true;
+}
+
+section{
+  width:95%;
+  display:block;
+  min-height: 100px;
+  background-color: rgba(18, 100, 19, 0.2);
+  margin: 0;
+  padding: 10px 20px;
+  border-bottom: black solid;
+}
+
+div#content{
+  margin: 0 auto;
 }
 
 
 @media only screen and (min-width: 425px){
 
+  header{
+    width:100%;
+    height:auto;
+  }
+
   div#nav-header{
+    background-image: url('../img/KFCbanner_1140x450.jpg');
+    position: relative;
     margin: 0 auto;
-    height: auto;
-    width: 100%;
+    width:100%;
+    height:20em;
+    background-size: contain;
+    background-repeat: no-repeat;
+
   }
 
   ul#main-nav{
@@ -184,9 +219,10 @@ div#nav-header{
   #logo{
     content: url('../img/KFC_logo_small.gif');
     position: absolute;
-    top: 80px;
-    right: 70px;
-    left:auto;
+    top:20em;
+    right:0;
+    left: 0;
+    margin: 0 auto;
     z-index:-1;
     border: none;
     opacity: 0.5;
@@ -204,15 +240,22 @@ div#nav-header{
 @media only screen and (min-width:1020px){
 
   #logo{
-    content: url('../img/KFC_logo1000px.gif');
-    position: absolute;
-    top:0;
-    right:0;
-    left: auto;
+    content: url('../img/KFC_logo600px.gif');
+  }
+
+  ul#main-nav{
+    margin: 0 20px;
+    float: right;
+    width:100%;
   }
 
   ul#main-nav li{
-    width: 15em;
+    width: 12em;
+    float: left;
+  }
+
+  ul#main-nav li a{
+    font-size: 1.2em;
   }
 
 
