@@ -159,7 +159,39 @@ div#nav-header{
 }
 
 
+@media only screen and (min-width: 425px){
 
+  div#nav-header{
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+  }
+
+  ul#main-nav{
+    position:relative;
+    width:100%;
+    margin: 0 auto;
+  }
+
+  ul#main-nav li{
+    display:inline-block;
+    width: 8em;
+    float: left;
+
+  }
+
+  #logo{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    left:auto;
+    z-index:-1;
+  }
+
+
+
+
+}
 
 
 
