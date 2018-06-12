@@ -94,7 +94,7 @@ textarea {
 body{
   width:100%;
   position:relative;
-  background-color: #999999;
+  background-color: #E3651B;
 }
 
 p{
@@ -153,6 +153,7 @@ header{
   height: 280px;
   width:324px;
   margin: 0 auto;
+  box-shadow: -3px 4px 8px 0px black;
 }
 
 img#banner{
@@ -171,36 +172,39 @@ div#nav-header{
 }
 
 section{
-  width:95%;
-  display:block;
   min-height: 100px;
-  background-color: rgba(18, 100, 19, 0.2);
-  margin: 0;
+  margin: 1em auto;
+  max-width:95%;
+  box-shadow: -3px 4px 8px 0px black;
+  background-color: rgba(227, 101, 27, 0.2);
   padding: 10px 20px;
-  border-bottom: black solid;
+}
+
+section h1{
+  text-transform: uppercase;
 }
 
 div#content{
   margin: 0 auto;
+  max-width:95%;
+
 }
 
-
-@media only screen and (min-width: 425px){
+@media only screen and (min-width: 768px){
 
   header{
-    width:100%;
-    height:auto;
+    min-width:95%;
+    background-color:#1C3051;
+    margin: 0 auto;
   }
 
   div#nav-header{
-    background-image: url('../img/KFCbanner_1140x450.jpg');
     position: relative;
     margin: 0 auto;
     width:100%;
-    height:20em;
+    height:100%;
     background-size: contain;
-    background-repeat: no-repeat;
-
+    background: url('../img/KFCbanner_cropped.gif') no-repeat center;
   }
 
   ul#main-nav{
@@ -213,13 +217,17 @@ div#content{
     display:inline-block;
     width: 8em;
     float: left;
-
+    background-color:#E3651B;
+    margin: 10px 10px;
+    padding:auto;
+    box-shadow: -3px 4px 8px 0px black;
   }
+
 
   #logo{
     content: url('../img/KFC_logo_small.gif');
     position: absolute;
-    top:20em;
+    top:30em;
     right:0;
     left: 0;
     margin: 0 auto;
@@ -243,19 +251,28 @@ div#content{
     content: url('../img/KFC_logo600px.gif');
   }
 
+  div#nav-header{
+    background-image: url('../img/KFCbanner_1140x450.jpg');
+    height:30em;
+  }
+
+
   ul#main-nav{
-    margin: 0 20px;
-    float: right;
+    margin: 0 auto;
     width:100%;
   }
 
   ul#main-nav li{
-    width: 12em;
+    width: 15em;
     float: left;
   }
 
   ul#main-nav li a{
     font-size: 1.2em;
+  }
+
+  #content{
+
   }
 
 
