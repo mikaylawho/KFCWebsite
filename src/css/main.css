@@ -210,6 +210,23 @@ div#content{
 }
 
 
+
+ul#speaker-list li{
+  float:left;
+  display: inline;
+  width:30%;
+  margin: 0 auto;
+  padding-right:10px;
+}
+
+img.speaker-photo{
+  border-radius: 100px;
+  box-shadow: -3px 4px 8px 0 black;
+  width:200px;
+  height:200px;
+}
+
+
 @media only screen and (min-width: 768px){
 
   header{
