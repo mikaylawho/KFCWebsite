@@ -97,6 +97,12 @@ body{
   background-color: #FFFFFF;
 }
 
+div, ul, p{
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
 p{
   font-size:1.5em;
 }
@@ -209,12 +215,23 @@ div#content{
   margin: 0 auto;
 }
 
+ul#speaker-list li h2, ul#speaker-list li p{
+  margin-top:0;
+  margin-bottom:0;
+  font-size:.95em;
+}
+
+
+ul#speaker-list{
+  display:inline-block;
+}
 
 
 ul#speaker-list li{
   float:left;
   display: inline;
-  width:30%;
+  width:10em;
+  height:12em;
   margin: 0 auto;
   padding-right:10px;
 }
@@ -222,8 +239,8 @@ ul#speaker-list li{
 img.speaker-photo{
   border-radius: 100px;
   box-shadow: -3px 4px 8px 0 black;
-  width:200px;
-  height:200px;
+  width:100px;
+  height:100px;
 }
 
 
