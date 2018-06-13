@@ -230,7 +230,7 @@ ul#speaker-list{
 ul#speaker-list li{
   float:left;
   display: inline;
-  width:10em;
+  width:15em;
   height:12em;
   margin: 0 auto;
   padding-right:10px;
