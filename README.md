@@ -1,3 +1,14 @@
+# Kentucky Freethought Convention Website Design Project
+
+Demo URL: https://mikaylawho.github.io/KFCWebsite/
+
+Site design makes use of HTML5 Boilerplate. The readme note included with Boilerplate package is included below. 
+
+---------
+
+
+
+
 # [HTML5 Boilerplate](https://html5boilerplate.com/)
 
 [![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)

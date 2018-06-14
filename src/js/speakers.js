@@ -28,6 +28,12 @@ var speakers = [
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales dignissim porttitor. Nunc augue elit, finibus vitae semper in, rhoncus nec ligula. In dignissim tincidunt nunc. Suspendisse potenti. Proin sit amet ornare nibh. Duis sed euismod risus, ut pretium magna. Donec cursus efficitur nunc ac semper. Donec mattis mi dui, a porttitor quam bibendum et. Maecenas euismod tincidunt diam. Vivamus gravida mauris sit amet tristique dapibus.',
     title: 'title or one line description',
     image: '/KFCWebsite/src/img/speakers/Seth-Andrews.jpg'
+  },
+  {
+    name: 'Krupa',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales dignissim porttitor. Nunc augue elit, finibus vitae semper in, rhoncus nec ligula. In dignissim tincidunt nunc. Suspendisse potenti. Proin sit amet ornare nibh. Duis sed euismod risus, ut pretium magna. Donec cursus efficitur nunc ac semper. Donec mattis mi dui, a porttitor quam bibendum et. Maecenas euismod tincidunt diam. Vivamus gravida mauris sit amet tristique dapibus.',
+    title: 'title or one line description',
+    image: '/KFCWebsite/src/img/speakers/KRUPA.jpg'
   }
 
 ];
