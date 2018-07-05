@@ -30,38 +30,3 @@ function listAllSpeakers(){
 listAllSpeakers();
 
 
-/* desired data structure */
-/*<ul id="speaker-list">
-      <li>
-        <h2 class="speaker-name" >Will Gervais</h2>
-        <p class="speaker-info">Professor at University of Kentucky.</p>
-        <div><img class="speaker-photo" src="src/img/speakers/will_gervais.jpg"></div>
-      </li>
-      <li>
-        <h2 class="speaker-name" >Annalise Soiree</h2>
-        <p class="speaker-info">A very good speaker.</p>
-        <div><img class="speaker-photo" src="src/img/speakers/annalise_soiree.jpg"></div>
-      </li>
-      <li>
-        <h2 class="speaker-name" >Annalise Soiree</h2>
-        <p class="speaker-info">A very good speaker.</p>
-        <div><img class="speaker-photo" src="src/img/speakers/annalise_soiree.jpg"></div>
-      </li>
-      <li>
-        <h2 class="speaker-name" >Annalise Soiree</h2>
-        <p class="speaker-info">A very good speaker.</p>
-        <div><img class="speaker-photo" src="src/img/speakers/annalise_soiree.jpg"></div>
-      </li>
-      <li>
-        <h2 class="speaker-name" >Annalise Soiree</h2>
-        <p class="speaker-info">A very good speaker.</p>
-        <div><img class="speaker-photo" src="src/img/speakers/annalise_soiree.jpg"></div>
-      </li>
-      <li>
-        <h2 class="speaker-name" >Annalise Soiree</h2>
-        <p class="speaker-info">A very good speaker.</p>
-        <div><img class="speaker-photo" src="src/img/speakers/annalise_soiree.jpg"></div>
-      </li>
-    </ul>
-    */
-
