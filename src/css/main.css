@@ -265,13 +265,14 @@ img.speaker-photo{
   }
 
   ul#main-nav{
-    position: absolute;
+    position: fixed;
     top:0;
-    right:0;
+    right:20px;
     left:auto;
     width:100%;
     margin: 0 auto;
     overflow: auto;
+    z-index:1000;
   }
 
   ul#main-nav li{
