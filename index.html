@@ -10,36 +10,42 @@
 </head>
 <body>
 
+<div class="top-nav-menu">
+  <ul id="main-nav">
+    <li><a id="info-link" href="#general-info">About</a></li>
+    <li><a id="speaker-link" href="#speakers">Speakers</a></li>
+    <li><a id="schedule-link" href="#schedule">Schedule</a></li>
+    <li><a id="venue-link" href="#venue">Venue</a></li>
+  </ul>
+</div>
+
+<div id="content" class="content content-wrap">
 <header>
   <img id="logo" src="src/img/KFC_logo_318px.gif">
   <div id="nav-header" class="clearfix">
-    <ul id="main-nav">
-      <li><a href="#general-info">About</a></li>
-      <li><a href="#speakers">Speakers</a></li>
-      <li><a href="#schedule">Schedule</a></li>
-      <li><a href="#venue">Venue</a></li>
-    </ul>
+
     <a id="registration-button" href="#">Register!</a>
   </div>
 </header>
-<div id="content" class="content-wrap">
-  <section id="general-info">
-    <h1>About the Kentucky Freethought Convention</h1>
-    <p>Information about the mission and purpose of the Kentucky Freethought Convention.</p>
-  </section>
-  <section id="speakers">
-    <h1>Confirmed Speakers!</h1>
 
+  <section class="section" id="info">
+    <h1>About the Kentucky Freethought Convention</h1>
+    <p>Information about the mission and purpose of the Kentucky Freethought Convention.
+
+      Click the navigation buttons at the top of the page for information about speakers, the venue, and the schedule.
+    </p>
+  </section>
+  <section class="section" id="speakers">
+    <h1>Confirmed Speakers!</h1>
     <!-- speakers-container is populated by speakers-list.js -->
     <div id="speakers-container" class="clearfix">
-
     </div>
   </section>
-  <section id="schedule">
+  <section class="section" id="schedule">
     <h1>Schedule</h1>
     <p>Schedule to be updated as updates are available.</p>
   </section>
-  <section id="venue">
+  <section class="section" id="venue">
     <h1>Venue</h1>
     <p>Info about the venue and local attractions</p></section>
 </div>
