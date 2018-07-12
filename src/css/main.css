@@ -112,23 +112,32 @@ ul{
   list-style-type:none;
 }
 
+div.top-nav-menu{
+  position: relative;
+  width:100%;
+  background-color: #1C3051;
+  z-index:1000;
+  padding-top:1em;
+}
+
+
 ul#main-nav{
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
+  position:relative;
   font-size: 0.95em;
   font-weight: bold;
-  margin:0;
   padding:0;
+  margin: 0 auto;
+  width:100%;
 }
 
 ul#main-nav li{
   margin: 0 1em 1em;
   display:block;
-  background-color: rgba(0, 0, 255, 0.75);
   padding: 1em;
   text-align:center;
+  background-color:#E3651B;
+  box-shadow: -3px 4px 8px 0px black;
+  white-space:nowrap;
 }
 
 ul#main-nav li a{
@@ -144,22 +153,20 @@ ul#main-nav a:hover {
 }
 
 #logo{
-  content: url('../img/KFC_logo_318px.gif');
-  position:absolute;
-  bottom:0;
-  left:0;
+  content: url('../img/KFC_logo_small.gif');
+  position: absolute;
+  top:25em;
   right:0;
-  z-index:0;
-  border: double black;
+  left: 0;
+  margin: 0 auto;
+  z-index:-1;
+  border: none;
+  opacity: 0.3;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
 header{
-  position:relative;
-  /*width and height set to fit the logo image on mobile*/
-  height: 280px;
-  width:324px;
   margin: 0 auto;
-  box-shadow: -3px 4px 8px 0px black;
 }
 
 img#banner{
@@ -167,18 +174,19 @@ img#banner{
 }
 
 div#nav-header{
-  position: absolute;
+  position: relative;
   top:0;
-  bottom:0;
+  bottom:auto;
   left:0;
   right:0;
   width: 100%;
   margin:0 auto;
   overflow-clip: true;
+
 }
 
 section{
-  margin: 1em auto;
+  margin: 1em;
   box-shadow: -3px 4px 8px 0px black;
   background-color: rgba(227, 101, 27, 0.2);
   padding: 10px 10px;
@@ -190,8 +198,8 @@ section h1{
 }
 
 div#content{
-  max-width:95%;
-  margin: 20px auto;
+  max-width:100%;
+  margin: 10px auto;
 
 }
 
@@ -208,10 +216,7 @@ div#content{
   border-radius: 50px;
   box-shadow: -3px 4px 8px 0 black;
 
-  position:absolute;
-  bottom:-40px;
-  left:0;
-  right:0;
+  position:relative;
   margin: 0 auto;
 }
 
@@ -250,6 +255,7 @@ img.speaker-photo{
 
   header{
     position: relative;
+    height:300px;
     min-width:95%;
     background-color:#1C3051;
     margin: 50px auto;
@@ -257,6 +263,7 @@ img.speaker-photo{
   }
 
   div#nav-header{
+    position:absolute;
     margin: 0 auto;
     width:100%;
     height:100%;
@@ -287,7 +294,7 @@ img.speaker-photo{
   ul#main-nav li{
     display:inline-block;
     width: 6em;
-    float: right;
+    float: left;
     background-color:#E3651B;
     margin: 5px 20px 5px 10px;
     padding-top: 5px;
@@ -300,16 +307,7 @@ img.speaker-photo{
 
 
   #logo{
-    content: url('../img/KFC_logo_small.gif');
-    position: absolute;
-    top:30em;
-    right:0;
-    left: 0;
-    margin: 0 auto;
-    z-index:-1;
-    border: none;
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+
   }
   body{
     background-color: #ffffff;
